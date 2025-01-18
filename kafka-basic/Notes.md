@@ -1,7 +1,7 @@
 ## npm install kafkajs
 
 ## Step 3: Kafka Producer Example in Node.js
-<!-- 
+
 The Kafka producer sends messages to Kafka topics. Here's how you can implement a producer in Node.js:
 
 javascript
@@ -43,10 +43,8 @@ const run = async () => {
 };
 
 run().catch(console.error);
--->
 
 ## Step 4: Kafka Consumer Example in Node.js
-<!-- 
 
 A Kafka consumer reads messages from a Kafka topic. Here's an example consumer in Node.js:
 
@@ -81,10 +79,7 @@ const run = async () => {
 
 run().catch(console.error);
 
--->
-
 ## Step 5: Kafka Error Handling and Logging
-<!--
 
 To make your Kafka producer and consumer more robust, it is important to handle errors effectively and log important events.
 
@@ -125,10 +120,7 @@ const run = async () => {
   }
 };
 
--->
-
 ## Step 6: Managing Topics and Partitions
-<!-- 
 
 Kafka topics are central to how messages are organized and consumed. You can dynamically create topics or use existing ones.
 
@@ -173,17 +165,10 @@ const run = async () => {
 
 run().catch(console.error);
 
--->
-
 ## Step 7: Deploying Kafka and Using ZooKeeper (Optional)
-<!-- 
 If you're using older versions of Kafka, you will likely interact with ZooKeeper for broker coordination. However, recent versions of Kafka (2.x and beyond) have started to remove the dependency on ZooKeeper, simplifying the setup.
 
 If you're using Kafka with ZooKeeper, make sure you configure the zookeeper.connect property in your Kafka configuration files.
-
--->
-
-
 
 ## Sources: 
 `https://github.com/TusharVashishth/quick_chat/blob/main/server/src/config/kafka.config.ts`
